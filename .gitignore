@@ -1,0 +1,46 @@
+# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+
+# Compiled output
+/front-demo/dist
+/front-demo/tmp
+/front-demo/out-tsc
+/front-demo/bazel-out
+
+# Node
+/front-demo/node_modules
+/shopping-cart-api/node_modules
+npm-debug.log
+yarn-error.log
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Miscellaneous
+/front-demo/.angular/cache
+/front-demo.sass-cache/
+/front-demo/connect.lock
+/front-demo/coverage
+/front-demo/libpeerconnection.log
+/front-demotestem.log
+/front-demo/typings
+
+# System files
+/front-demo/.DS_Store
+/front-demo/Thumbs.db
+
+.DS_Store
+Thumbs.db
